@@ -10,4 +10,11 @@ Types::QueryType = GraphQL::ObjectType.define do
       "Hello World!"
     }
   end
+
+  field :bookmarks, !types[Types::BookmarkType] do
+    description "A root collection of all Bookmarks"
+    resolve -> (obj, args, ctx) {
+      Bookmark.all
+    }
+  end
 end
