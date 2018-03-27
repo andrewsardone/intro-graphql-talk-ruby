@@ -1,24 +1,9 @@
-# README
+# intro-graphql-talk-ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For [the 2018-03-27 Ann Arbor Ruby meetup][tweet].
 
-Things you may want to cover:
+```
+docker-compose up
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[tweet]: https://twitter.com/a2rb/status/978670577853583360
